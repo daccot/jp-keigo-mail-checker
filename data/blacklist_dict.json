@@ -1,0 +1,44 @@
+[
+  {
+    "id": "blk_001",
+    "surface": "御社様",
+    "message": "「御社様」は過剰敬語になりやすいため「御社」を推奨します。",
+    "severity": "warning",
+    "weight": 1.7
+  },
+  {
+    "id": "blk_002",
+    "surface": "ご苦労様です",
+    "message": "目上や社外向けでは「お疲れ様です」等への置き換えを検討してください。",
+    "severity": "warning",
+    "weight": 1.6
+  },
+  {
+    "id": "blk_003",
+    "surface": "お体ご自愛ください",
+    "message": "「ご自愛ください」は自愛の意味を含むため「お体」を重ねない表現が自然です。",
+    "severity": "notice",
+    "weight": 1.2
+  },
+  {
+    "id": "blk_004",
+    "surface": "各位様",
+    "message": "「各位」自体に敬意が含まれるため「各位様」は避けてください。",
+    "severity": "warning",
+    "weight": 1.5
+  },
+  {
+    "id": "blk_005",
+    "surface": "ご確認お願いします",
+    "message": "社外メールでは「ご確認のほどお願いいたします」等がより自然です。",
+    "severity": "warning",
+    "weight": 1.6
+  },
+  {
+    "id": "blk_006",
+    "surface": "よろしくです",
+    "message": "社外メールではカジュアルすぎるため、丁寧な締め表現へ変更してください。",
+    "severity": "strong_warning",
+    "weight": 2
+  }
+]

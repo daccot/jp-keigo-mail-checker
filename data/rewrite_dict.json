@@ -1,0 +1,89 @@
+[
+  {
+    "id": "rew_001",
+    "source": "送ります",
+    "targets": [
+      { "tone": "external", "value": "お送りします" },
+      { "tone": "external", "value": "お送りいたします" }
+    ],
+    "reason": "社外向けでは丁寧さを補いやすい表現です。 "
+  },
+  {
+    "id": "rew_002",
+    "source": "見てください",
+    "targets": [
+      { "tone": "all", "value": "ご確認ください" },
+      { "tone": "external", "value": "ご確認いただけますと幸いです" }
+    ],
+    "reason": "依頼表現を丁寧にします。"
+  },
+  {
+    "id": "rew_003",
+    "source": "了解しました",
+    "targets": [
+      { "tone": "external", "value": "承知いたしました" },
+      { "tone": "internal", "value": "承知しました" }
+    ],
+    "reason": "相手との距離感に応じた表現へ調整します。",
+    "patternIds": ["pat_003"]
+  },
+  {
+    "id": "rew_004",
+    "source": "なるほどです",
+    "targets": [
+      { "tone": "all", "value": "承知しました" },
+      { "tone": "all", "value": "理解いたしました" }
+    ],
+    "reason": "カジュアル寄りの表現を置き換えます。",
+    "patternIds": ["pat_002"]
+  },
+  {
+    "id": "rew_005",
+    "source": "ご覧になられる",
+    "targets": [
+      { "tone": "all", "value": "ご覧になる" },
+      { "tone": "all", "value": "ご覧になります" }
+    ],
+    "reason": "二重敬語を避けます。",
+    "patternIds": ["pat_001"]
+  },
+  {
+    "id": "rew_006",
+    "source": "ご確認お願いします",
+    "targets": [
+      { "tone": "external", "value": "ご確認のほどお願いいたします" },
+      { "tone": "external", "value": "ご確認いただけますと幸いです" }
+    ],
+    "reason": "依頼表現を社外向けに整えます。",
+    "patternIds": ["pat_005"]
+  },
+  {
+    "id": "rew_007",
+    "source": "取り急ぎ",
+    "targets": [
+      { "tone": "external", "value": "まずはご連絡申し上げます" },
+      { "tone": "external", "value": "ご報告まで申し上げます" }
+    ],
+    "reason": "やや急ぎすぎる印象を和らげます。",
+    "patternIds": ["pat_004"]
+  },
+  {
+    "id": "rew_008",
+    "source": "すみません",
+    "targets": [
+      { "tone": "external", "value": "恐れ入りますが" },
+      { "tone": "external", "value": "申し訳ございません" }
+    ],
+    "reason": "口語寄りの謝意・依頼表現を整えます。",
+    "patternIds": ["pat_008"]
+  },
+  {
+    "id": "rew_009",
+    "source": "見てください",
+    "targets": [
+      { "tone": "external", "value": "ご確認ください" },
+      { "tone": "external", "value": "ご確認いただけますと幸いです" }
+    ],
+    "reason": "社外メール向けの依頼表現に調整します。"
+  }
+]

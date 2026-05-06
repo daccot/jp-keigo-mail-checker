@@ -1,0 +1,128 @@
+[
+  {
+    "id": "tok_001",
+    "surface": "です",
+    "normalized": "です",
+    "keigoType": "TEI",
+    "weight": 0.8,
+    "tokenClass": "auxiliary",
+    "tags": ["basic"]
+  },
+  {
+    "id": "tok_002",
+    "surface": "ます",
+    "normalized": "ます",
+    "keigoType": "TEI",
+    "weight": 0.8,
+    "tokenClass": "auxiliary",
+    "tags": ["basic"]
+  },
+  {
+    "id": "tok_003",
+    "surface": "いたします",
+    "normalized": "いたします",
+    "keigoType": "KEN",
+    "weight": 1.3,
+    "tokenClass": "verb",
+    "tags": ["humble"]
+  },
+  {
+    "id": "tok_004",
+    "surface": "申し上げます",
+    "normalized": "申し上げます",
+    "keigoType": "KEN",
+    "weight": 1.5,
+    "tokenClass": "verb",
+    "tags": ["humble"]
+  },
+  {
+    "id": "tok_005",
+    "surface": "おっしゃいます",
+    "normalized": "おっしゃいます",
+    "keigoType": "SON",
+    "weight": 1.5,
+    "tokenClass": "verb",
+    "tags": ["respect"]
+  },
+  {
+    "id": "tok_006",
+    "surface": "ご覧になります",
+    "normalized": "ご覧になります",
+    "keigoType": "SON",
+    "weight": 1.5,
+    "tokenClass": "verb",
+    "tags": ["respect"]
+  },
+  {
+    "id": "tok_007",
+    "surface": "承知いたしました",
+    "normalized": "承知いたしました",
+    "keigoType": "KEN",
+    "weight": 1.4,
+    "tokenClass": "phrase",
+    "tags": ["response", "external"]
+  },
+  {
+    "id": "tok_008",
+    "surface": "かしこまりました",
+    "normalized": "かしこまりました",
+    "keigoType": "KEN",
+    "weight": 1.4,
+    "tokenClass": "phrase",
+    "tags": ["response", "external"]
+  },
+  {
+    "id": "tok_009",
+    "surface": "恐縮ですが",
+    "normalized": "恐縮ですが",
+    "keigoType": "TEI",
+    "weight": 1.1,
+    "tokenClass": "cushion",
+    "tags": ["request", "external"]
+  },
+  {
+    "id": "tok_010",
+    "surface": "恐れ入りますが",
+    "normalized": "恐れ入りますが",
+    "keigoType": "TEI",
+    "weight": 1.2,
+    "tokenClass": "cushion",
+    "tags": ["request", "external"]
+  },
+  {
+    "id": "tok_011",
+    "surface": "ご確認ください",
+    "normalized": "ご確認ください",
+    "keigoType": "SON",
+    "weight": 1.2,
+    "tokenClass": "request",
+    "tags": ["confirmation"]
+  },
+  {
+    "id": "tok_012",
+    "surface": "お送りいたします",
+    "normalized": "お送りいたします",
+    "keigoType": "KEN",
+    "weight": 1.3,
+    "tokenClass": "verb",
+    "tags": ["sending"]
+  },
+  {
+    "id": "tok_013",
+    "surface": "ご査収",
+    "normalized": "ご査収",
+    "keigoType": "SON",
+    "weight": 1.2,
+    "tokenClass": "noun",
+    "tags": ["attachment"]
+  },
+  {
+    "id": "tok_014",
+    "surface": "幸いです",
+    "normalized": "幸いです",
+    "keigoType": "TEI",
+    "weight": 1.0,
+    "tokenClass": "ending",
+    "tags": ["soft_request"]
+  }
+]

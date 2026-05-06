@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  background: #f3f6fb;
+  color: #1f2937;
+  font: 14px/1.5 "Yu Gothic UI", "Meiryo", sans-serif;
+}
+
+.app-shell {
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.popup-shell {
+  width: 420px;
+}
+
+.sidepanel-shell,
+.options-shell {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.app-header h1,
+.card h2 {
+  margin: 0;
+}
+
+.app-header p,
+.status-text,
+.muted-inline,
+.empty-state {
+  color: #64748b;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #dbe4f0;
+  border-radius: 12px;
+  padding: 14px;
+  margin-top: 14px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.editor {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 12px;
+  resize: vertical;
+  font: inherit;
+  background: #fcfdff;
+}
+
+.editor-compact {
+  min-height: 180px;
+}
+
+.editor-wide {
+  min-height: 220px;
+}
+
+button,
+.chip-button {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: #1d4ed8;
+  color: #ffffff;
+  cursor: pointer;
+  font: inherit;
+}
+
+.secondary-button {
+  background: #e2e8f0;
+  color: #1f2937;
+}
+
+.text-link {
+  color: #1d4ed8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 10px;
+}
+
+.metric-card {
+  padding: 12px;
+  border-radius: 10px;
+  background: #eef4ff;
+}
+
+.metric-label {
+  display: block;
+  color: #475569;
+  font-size: 12px;
+}
+
+.metric-value {
+  display: block;
+  margin-top: 4px;
+  font-size: 24px;
+}
+
+.list-block {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.warning-item {
+  margin-bottom: 8px;
+}
+
+.warning-item.notice {
+  color: #a16207;
+}
+
+.warning-item.warning,
+.warning-item.strong_warning,
+.warning-item.strong {
+  color: #b91c1c;
+}
+
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.suggestion-stack {
+  display: grid;
+  gap: 10px;
+}
+
+.suggestion-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid #dbe4f0;
+  border-radius: 10px;
+  background: #f8fbff;
+}
+
+.suggestion-text,
+.suggestion-source {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.suggestion-source {
+  font-weight: 600;
+  color: #334155;
+}
+
+.chip-button {
+  background: #e0f2fe;
+  color: #0f172a;
+  padding: 8px 10px;
+}
+
+.sentence-list {
+  display: grid;
+  gap: 10px;
+}
+
+.sentence-item {
+  border: 1px solid #dbe4f0;
+  border-radius: 10px;
+  padding: 12px;
+  background: #fbfdff;
+}
+
+.sentence-item p {
+  margin: 8px 0 0;
+  white-space: pre-wrap;
+}
+
+.sentence-meta,
+.badge-row,
+.checkbox-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #e2e8f0;
+  font-size: 12px;
+}
+
+.badge-tei {
+  background: #dbeafe;
+}
+
+.badge-son {
+  background: #ede9fe;
+}
+
+.badge-ken {
+  background: #dcfce7;
+}
+
+.badge-tmp {
+  background: #fef3c7;
+}
+
+.badge-wrn {
+  background: #fee2e2;
+}
+
+.tab-bar {
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid #dbe4f0;
+  padding-bottom: 8px;
+}
+
+.tab-button {
+  background: #e2e8f0;
+  color: #1f2937;
+}
+
+.tab-button.active {
+  background: #1d4ed8;
+  color: #ffffff;
+}
+
+.tab-panel {
+  display: none;
+  padding-top: 12px;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+.history-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.history-load-button {
+  flex: 0 0 auto;
+}
+
+.field-label {
+  display: block;
+  margin: 10px 0 6px;
+  font-weight: 600;
+}
+
+.input-field {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  background: #ffffff;
+  font: inherit;
+}
+
+.status-text {
+  margin: 12px 0 0;
+}

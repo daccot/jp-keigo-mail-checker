@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "日本式メール敬語チェッカー",
+  "version": "0.1.0",
+  "description": "日本語メール文面の敬語レベルを辞書ベースで点検し、警告と候補を提示します。",
+  "permissions": [
+    "storage",
+    "sidePanel",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "日本式メール敬語チェッカー"
+  },
+  "options_page": "options.html",
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

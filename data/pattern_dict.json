@@ -1,0 +1,74 @@
+[
+  {
+    "id": "pat_001",
+    "pattern": "ご覧になられ(る|ます|ました)",
+    "category": "double_keigo",
+    "severity": "warning",
+    "severityWeight": 1.8,
+    "message": "「ご覧になられる」は二重敬語の可能性があります。",
+    "suggestions": ["ご覧になる", "ご覧になります"]
+  },
+  {
+    "id": "pat_002",
+    "pattern": "なるほどです",
+    "category": "casual",
+    "severity": "notice",
+    "severityWeight": 1.4,
+    "message": "「なるほどです」はビジネスメールではカジュアルに見える場合があります。",
+    "suggestions": ["承知しました", "理解いたしました"]
+  },
+  {
+    "id": "pat_003",
+    "pattern": "了解しました",
+    "category": "external_caution",
+    "severity": "warning",
+    "severityWeight": 1.6,
+    "message": "社外向けでは「承知いたしました」などへの言い換えを検討してください。",
+    "suggestions": ["承知いたしました", "かしこまりました"]
+  },
+  {
+    "id": "pat_004",
+    "pattern": "取り急ぎ",
+    "category": "quick_notice",
+    "severity": "notice",
+    "severityWeight": 1.2,
+    "message": "社外メールでは「まずはご連絡申し上げます」など、より丁寧な表現も検討できます。",
+    "suggestions": ["まずはご連絡申し上げます", "ご報告まで申し上げます"]
+  },
+  {
+    "id": "pat_005",
+    "pattern": "ご確認お願いします",
+    "category": "rough_request",
+    "severity": "warning",
+    "severityWeight": 1.6,
+    "message": "社外向けでは「ご確認のほどお願いいたします」等がより自然です。",
+    "suggestions": ["ご確認のほどお願いいたします", "ご確認いただけますと幸いです"]
+  },
+  {
+    "id": "pat_006",
+    "pattern": "念のため",
+    "category": "blunt_notice",
+    "severity": "notice",
+    "severityWeight": 1.0,
+    "message": "文脈によっては事務的に見えるため、補足の前置きを加えると丁寧です。",
+    "suggestions": ["念のため共有いたします", "参考までにお送りします"]
+  },
+  {
+    "id": "pat_007",
+    "pattern": "よろしくです",
+    "category": "casual",
+    "severity": "strong_warning",
+    "severityWeight": 2.0,
+    "message": "社外メールではカジュアルすぎるため、丁寧な締め表現へ変更してください。",
+    "suggestions": ["よろしくお願いいたします", "何卒よろしくお願いいたします"]
+  },
+  {
+    "id": "pat_008",
+    "pattern": "すみません",
+    "category": "casual_apology",
+    "severity": "notice",
+    "severityWeight": 1.1,
+    "message": "社外メールでは「恐れ入ります」「申し訳ございません」が適切な場合があります。",
+    "suggestions": ["恐れ入りますが", "申し訳ございません"]
+  }
+]

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本式メール敬語チェッカー 詳細</title>
+    <link rel="stylesheet" href="styles/common.css">
+  </head>
+  <body class="sidepanel-body">
+    <main class="app-shell sidepanel-shell">
+      <header class="app-header">
+        <div>
+          <h1>日本式メール敬語チェッカー</h1>
+          <p>長文メールの敬語バランスを詳細表示します。</p>
+        </div>
+      </header>
+
+      <section class="card">
+        <div class="toolbar">
+          <button id="side-import-selection-button" type="button" class="secondary-button">選択内容を取り込む</button>
+          <button id="side-check-button" type="button">チェック</button>
+        </div>
+        <textarea id="side-input-text" class="editor editor-wide" placeholder="長文メールを貼り付けてください。"></textarea>
+      </section>
+
+      <section class="card">
+        <h2>スコア</h2>
+        <div id="side-score-summary" class="summary-grid"></div>
+      </section>
+
+      <section class="card">
+        <h2>文ごとの解析</h2>
+        <div id="sentence-results" class="sentence-list"></div>
+      </section>
+
+      <section class="card">
+        <div class="tab-bar">
+          <button type="button" class="tab-button active" data-tab="templates">定型句</button>
+          <button type="button" class="tab-button" data-tab="rewrites">言い換え</button>
+          <button type="button" class="tab-button" data-tab="warnings">警告</button>
+          <button type="button" class="tab-button" data-tab="history">履歴</button>
+        </div>
+        <div id="tab-templates" class="tab-panel active">
+          <div id="side-template-list" class="suggestion-stack"></div>
+        </div>
+        <div id="tab-rewrites" class="tab-panel">
+          <div id="side-rewrite-list" class="suggestion-stack"></div>
+        </div>
+        <div id="tab-warnings" class="tab-panel">
+          <ul id="side-warning-list" class="list-block"></ul>
+        </div>
+        <div id="tab-history" class="tab-panel">
+          <ul id="history-list" class="list-block"></ul>
+        </div>
+      </section>
+    </main>
+    <script src="sidepanel.js"></script>
+  </body>
+</html>
